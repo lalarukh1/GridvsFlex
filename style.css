@@ -1,0 +1,54 @@
+body {
+    margin: 2rem;
+}
+h1, h2 {
+    margin: 2rem 0;
+}
+.css-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+.css-grid .box {
+    background-color: #f44336;
+    color: white;
+    padding: 20px;
+}
+
+
+.css-flexbox {
+    display: flex;
+}
+.css-flexbox .box {
+    flex-grow: 1;
+    margin: 5px;
+    background-color: #00bcd4;
+    color: white;
+    padding: 20px;
+}
+.css-flexbox--vertical {
+     flex-direction: column;
+ }
+.bootstrap .box {
+    background-color: #f456cb;
+    color: white;
+    padding: 20px;
+}
+.bootstrap-flex .box {
+    background-color: #f40e78;
+    color: white;
+    padding: 20px;
+}
+.bulma .box {
+    background-color: #f4f322;
+    color: white;
+    padding: 20px;
+}
+.tailwind .box {
+    background-color: #f46e10;
+    color: white;
+    padding: 20px;
+}
+
+
